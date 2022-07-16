@@ -42,7 +42,11 @@ int main(){
 
     cout<<to_string(a)+"67";
 
-    string s1="ahbdkikunm";
+    s1="ahbdkikunm";
     sort(s1.begin(), s1.end());
     cout<<s1;
+
+    cout<<"==============";
+    string nstr="ABC";
+    cout<<nstr.substr(0,1);
 }

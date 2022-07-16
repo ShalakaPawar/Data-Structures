@@ -19,12 +19,14 @@ bool isSafe(int** arr, int n, int x, int y){
         row--;
         col--;
     }
-    //left diagonal
-    while(row>=0 && col>=0){
+    row = x;
+    col = y;
+    //right diagonal
+    while(row>=0 && col<n){
         if(arr[row][col] == 1)
             return false;
         row--;
-        col--;
+        col++;
     }
     return true;
 }
@@ -47,7 +49,9 @@ bool nqueen(int** arr, int n, int x){
 }
 
 int main(){
-    int n=4;
+    int n;
+    cout<<"Enter n: ";
+    cin>>n;
    int** array = new int*[n];
    for(int i=0; i<n;i++){
         array[i] = new int[n];
