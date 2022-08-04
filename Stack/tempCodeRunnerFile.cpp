@@ -1,5 +1,4 @@
-  // cout<<"\nStack: ";
-    // while(s1.empty() == false){
-    //     cout<<s1.top()<<"\t";
-    //     s1.pop();
+ // int* soln = prev_largest(arr, n);
+    // for(int i=0; i< n; i++){
+    //     std::cout<<soln[i]<<"\t";
     // }

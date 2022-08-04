@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
     stack<int> s1;
+    cout<<s1.top()<<"\t";
     s1.push(8);
     s1.push(4);
     s1.push(0);

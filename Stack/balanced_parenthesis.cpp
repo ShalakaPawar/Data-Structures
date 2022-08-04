@@ -34,7 +34,7 @@ bool checkBalanceParenthtesis(string exp){
 }
 
 int main(){
-    string exp = "([(){[][]])";   //error - check this
+    string exp = "([(){[][]])";   
     cout<<checkBalanceParenthtesis(exp)<<endl;
     return 0;
 }
