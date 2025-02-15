@@ -18,4 +18,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0055-jump-game](https://github.com/ShalakaPawar/Data-Structures/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ShalakaPawar/Data-Structures/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/ShalakaPawar/Data-Structures/tree/master/0020-valid-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/ShalakaPawar/Data-Structures/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
