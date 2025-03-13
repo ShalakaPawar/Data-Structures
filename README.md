@@ -40,9 +40,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ShalakaPawar/Data-Structures/tree/master/0002-add-two-numbers) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShalakaPawar/Data-Structures/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Binary Search
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/ShalakaPawar/Data-Structures/tree/master/0035-search-insert-position) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/ShalakaPawar/Data-Structures/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/ShalakaPawar/Data-Structures/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
