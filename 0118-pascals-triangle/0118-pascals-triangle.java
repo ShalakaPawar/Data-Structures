@@ -1,20 +1,17 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> result = new ArrayList();
-    for (int i = 1; i < numRows+1; i++) {
-        List<Integer> arr = new ArrayList();
-        for (int j = 0; j < i; j++) {
-            if (j ==0 || j == i-1){
-                arr.add(1);
-            } else {
-                arr.add(result.get(i-2).get(j-1) + result.get(i-2).get(j));
+        List<List<Integer>> result = new ArrayList<>();
+
+        for (int i = 0; i < numRows; i++) {
+            List<Integer> row = new ArrayList<>(Collections.nCopies(i + 1, 1));
+
+            
+            for (int j = i - 1; j > 0; j--) {  
+                row.set(j, result.get(i - 1).get(j - 1) + result.get(i - 1).get(j));
             }
+
+            result.add(row);
         }
-        result.add(arr);
+        return result;
     }
-    return result;
-
-
-}
-    
 }
