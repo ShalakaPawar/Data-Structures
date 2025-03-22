@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ShalakaPawar/Data-Structures/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/ShalakaPawar/Data-Structures/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShalakaPawar/Data-Structures/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0506-relative-ranks](https://github.com/ShalakaPawar/Data-Structures/tree/master/0506-relative-ranks) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -77,4 +78,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/ShalakaPawar/Data-Structures/tree/master/0136-single-number) |
+## Sorting
+|  |
+| ------- |
+| [0506-relative-ranks](https://github.com/ShalakaPawar/Data-Structures/tree/master/0506-relative-ranks) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0506-relative-ranks](https://github.com/ShalakaPawar/Data-Structures/tree/master/0506-relative-ranks) |
 <!---LeetCode Topics End-->
