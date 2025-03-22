@@ -1,13 +1,9 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        List<Integer> counts = new ArrayList<>();
-        for (int i : nums) {
-            if(counts.contains(i)){
-                counts.remove(Integer.valueOf(i));
-            } else {
-                counts.add(i);
-            }
+        int xorr = 0;
+        for(int i=0; i<nums.length; i++){
+            xorr = xorr ^ nums[i];
         }
-        return counts.get(0);
+        return xorr;
     }
 }
